@@ -1,0 +1,57 @@
+# ビルド生成物
+/bin/
+/pkg/
+
+# ビルドの出力
+*.o
+*.a
+*.so
+*.exe
+*.test
+
+# ログファイル
+*.log
+
+# ベンダーディレクトリー
+# 注: 依存関係をリポジトリ内に保持しない場合
+/vendor/
+
+# ディレクトリ内のオブジェクトファイル（Windows）
+*.dll
+*.sys
+*.exe
+*.bat
+*.com
+
+# 隠しフォルダやファイル
+.*
+!.gitignore
+!.gitkeep
+
+# macOSに特有のファイル
+.DS_Store
+
+# テスト用の一時ファイル
+_testmain.go
+
+# IDEやエディタ固有の設定
+.vscode/
+.idea/
+*.swp
+*~
+
+# 環境固有の設定ファイル
+.env
+.env.local
+
+# カバレッジファイル
+*.out
+*.cover
+cover.out
+
+# セーブファイル（例: geditのセーブファイル）
+*~
+
+# 一時ファイルやフォルダ
+tmp/
+temp/
